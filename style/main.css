@@ -63,7 +63,6 @@ h1 {
   font-weight: 500;
   background: #ffc12f;
   border-radius: 30px;
-  filter: drop-shadow(0px 15px 40px rgba(249, 213, 128, 0.25));
   padding: 15px 20px;
   font-size: 19px;
 }
@@ -78,4 +77,87 @@ h1 {
   text-decoration: none;
   font-size: 17px;
   line-height: 32px;
+}
+.sect_process {
+  font-family: Inter;
+  color: #667085;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.sect_process h2,
+.sect_menu h2 {
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+.text_simple {
+  text-align: center;
+}
+.circle {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order {
+  background: #335dff;
+}
+.delivery {
+  background: #f6ca00;
+}
+.payment {
+  background: #0bd28e;
+}
+.text_process_title {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.sect_menu {
+  color: #667085;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.menu_item {
+  width: 273px;
+  height: 319px;
+  border-radius: 10.483px;
+  border: 0.699px solid rgba(112, 112, 112, 0.2);
+  margin: 22.5px 12.5px;
+}
+.text_meal_name {
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.363px;
+}
+.text_meal_desk {
+  color: #667085;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.text_meal_price {
+  color: #3c3c3c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20.965px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 15%;
 }

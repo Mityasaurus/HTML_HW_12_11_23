@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  max-width: 100%;
 }
 header {
   width: 100vw;
@@ -93,12 +94,19 @@ h1 {
   font-weight: 700;
   line-height: normal;
 }
+.sect_process p {
+  color: #667085;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
 .text_simple {
   text-align: center;
 }
 .circle {
-  width: 88px;
-  height: 88px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -106,12 +114,18 @@ h1 {
 }
 .order {
   background: #335dff;
+  width: 88px;
+  height: 88px;
 }
 .delivery {
   background: #f6ca00;
+  width: 88px;
+  height: 88px;
 }
 .payment {
   background: #0bd28e;
+  width: 88px;
+  height: 88px;
 }
 .text_process_title {
   color: #3c3c3c;
@@ -214,4 +228,54 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+.sect_app h3 {
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+.sect_app p {
+  color: #667085;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.div_contact_info {
+  border-radius: 30px;
+  background: var(--White, #fff);
+  width: 1170px;
+  height: 230px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email,
+.phone {
+  background: #feb918;
+  width: 100px;
+  height: 100px;
+  margin: 0 18px;
+}
+.text_email {
+  color: var(--Black, #232233);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-transform: lowercase;
+}
+.hr_info {
+  width: 4px;
+  height: 117px;
+  background: #e6e6e6;
+  border-width: 0;
+  border-radius: 5px;
+  margin: 0 94px;
+}
+footer {
+  background: var(--Black, #232233);
 }

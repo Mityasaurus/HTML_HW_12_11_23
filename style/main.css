@@ -252,6 +252,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -115px;
+  position: relative;
 }
 .email,
 .phone {
@@ -278,4 +280,125 @@ h1 {
 }
 footer {
   background: var(--Black, #232233);
+  padding-top: 243px;
+}
+.name_footer,
+.name_footer span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.name_footer span {
+  color: #fcc647;
+}
+.text_footer {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.hr_footer_sm {
+  width: 1px;
+  height: 20px;
+  background: #fff;
+  border-width: 0;
+}
+.nav_footer_sm {
+  width: 279px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div_footer_sm {
+  width: 331px;
+}
+.title_footer {
+  color: var(--White, #fff);
+  font-family: Segoe UI;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.text_footer_link {
+  color: var(--White, #fff);
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+.li_footer_link {
+  margin: 6px 0;
+}
+.text_footer_news {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 315px;
+  margin-top: 11px;
+  margin-bottom: 33px;
+}
+.input_email::placeholder {
+  color: var(--gray-paragraph, #6c6c72);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input_email {
+  border-radius: 4px 0px 0px 4px;
+  background: var(--White, #fff);
+  border-style: none;
+  padding: 13px 155px 13px 18px;
+}
+.img_send {
+  background: #feb918;
+  border-radius: 4px;
+  padding: 8.5px 12px;
+  margin-left: -2px;
+  margin-bottom: 1px;
+}
+.art_email {
+  display: flex;
+  align-items: center;
+}
+.div_footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hr_footer {
+  height: 1px;
+  background-color: #fff;
+  margin: 46px auto 0 auto;
+  width: 72.5%;
+}
+.art_copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  padding-bottom: 18px;
+}
+.art_copyright img {
+  margin-right: 5px;
+}
+.art_copyright p {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }

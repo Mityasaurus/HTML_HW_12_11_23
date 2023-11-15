@@ -86,6 +86,7 @@ h1 {
   font-size: 16px;
   margin-left: 120px;
   width: 507px;
+  margin-top: 15px;
 }
 .art_title_start {
   display: flex;
@@ -213,9 +214,9 @@ h1 {
 }
 .sect_menu h2 {
   margin-top: 88px;
+  margin-bottom: 16px;
 }
 .text_menu_desk {
-  margin-top: 16px;
   width: 465px;
   margin: 0 auto;
 }
@@ -285,6 +286,7 @@ h1 {
   max-height: 712px;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
 }
 .sect_desc img {
   align-self: center;
@@ -311,6 +313,8 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 13px;
+  width: 565px;
 }
 .text_desc {
   color: #667085;
@@ -318,6 +322,8 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  margin-top: 20px;
+  width: 537px;
 }
 .text_desc_order {
   color: var(--Light-Text, #fff);
@@ -333,6 +339,13 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+}
+.div_desc {
+  margin: 148px 135px 107px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 .sect_app h3 {
   color: #3c3c3c;
@@ -340,6 +353,7 @@ h1 {
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
+  width: 418px;
 }
 .sect_app p {
   color: #667085;
@@ -347,6 +361,29 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+  width: 501px;
+  margin-top: 25px;
+}
+.div_app_no_contact {
+  display: flex;
+  margin: 116px 133px 170px 137px;
+  justify-content: space-between;
+}
+.div_app {
+  order: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 128px;
+}
+.art_app_download {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.img_app_google_play {
+  margin-right: 23px;
 }
 .div_contact_info {
   border-radius: 30px;
@@ -407,6 +444,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  margin-top: 16px;
 }
 .hr_footer_sm {
   width: 1px;
@@ -419,6 +457,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .div_footer_sm {
   width: 331px;
@@ -475,7 +514,6 @@ footer {
   border-radius: 4px;
   padding: 8.5px 12px;
   margin-left: -2px;
-  margin-bottom: 1px;
 }
 .art_email {
   display: flex;

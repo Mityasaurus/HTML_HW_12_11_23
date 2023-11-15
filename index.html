@@ -18,10 +18,10 @@
       <nav>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a class="text_not_home" href="">About us</a></li>
-          <li><a class="text_not_home" href="">Menu</a></li>
-          <li><a class="text_not_home" href="">Blog</a></li>
-          <li><a class="text_not_home" href="">Contact Us</a></li>
+          <li><a class="text_not_home" href="#about_us">About us</a></li>
+          <li><a class="text_not_home" href="#menu">Menu</a></li>
+          <li><a class="text_not_home" href="#blog">Blog</a></li>
+          <li><a class="text_not_home" href="#contact_us">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -49,7 +49,7 @@
           </div>
         </div>
       </section>
-      <section class="sect_process">
+      <section class="sect_process" id="about_us">
         <h2>How it works</h2>
         <p class="text_simple text_works_desc">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -90,7 +90,7 @@
           </div>
         </div>
       </section>
-      <section class="sect_menu">
+      <section class="sect_menu" id="menu">
         <h2>Our Delicious Dish</h2>
         <p class="text_simple text_menu_desk">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -339,33 +339,49 @@
           </div>
         </div>
       </section>
-      <section class="sect_desc">
+      <section class="sect_desc" id="blog">
         <img src="./image/image_delivery.png" alt="Delivery image" />
-        <p class="text_desc_target">Our Target</p>
-        <h3>We Earn Your Trust and are Diligent in Your Case</h3>
-        <p class="text_desc">
-          When an unknown printer took a galley of type and scrambled it to make
-          a type specimen book. It has survived not only five centuries, but
-          also the leap into electronic typesetting, It was popularised in the
-          1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-        <p class="text_desc_order">Order Now</p>
+        <div class="div_desc">
+          <p class="text_desc_target">Our Target</p>
+          <h3>We Earn Your Trust and are Diligent in Your Case</h3>
+          <p class="text_desc">
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+          <p class="text_desc_order">Order Now</p>
+        </div>
       </section>
-      <section class="sect_app">
-        <img src="./image/image_app.png" alt="Phone image" />
-        <h3>To Get 15% Discount Download The App</h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
-        <img
-          src="./image/image_google_play.png"
-          alt="Download from Google play"
-        />
-        <img src="./image/image_app_store.png" alt="Download from App store" />
+      <section class="sect_app" id="contact_us">
+        <div class="div_app_no_contact">
+          <img src="./image/image_app.png" alt="Phone image" />
+          <div class="div_app">
+            <h3>To Get 15% Discount Download The App</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <article class="art_app_download">
+              <a href="">
+                <img
+                  src="./image/image_google_play.png"
+                  alt="Download from Google play"
+                  class="img_app_google_play"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./image/image_app_store.png"
+                  alt="Download from App store"
+                />
+              </a>
+            </article>
+          </div>
+        </div>
         <div class="div_contact_info">
           <div class="circle email">
             <img src="./image/icon_mail.png" alt="Mail icon" />
@@ -413,16 +429,16 @@
           <nav>
             <ul>
               <li class="li_footer_link">
-                <a class="text_footer_link" href="">About Us</a>
+                <a class="text_footer_link" href="#about_us">About Us</a>
               </li>
               <li class="li_footer_link">
-                <a class="text_footer_link" href="">Menu</a>
+                <a class="text_footer_link" href="#menu">Menu</a>
               </li>
               <li class="li_footer_link">
-                <a class="text_footer_link" href="">Blog</a>
+                <a class="text_footer_link" href="#blog">Blog</a>
               </li>
               <li class="li_footer_link">
-                <a class="text_footer_link" href="">Contact Us</a>
+                <a class="text_footer_link" href="#contact_us">Contact Us</a>
               </li>
             </ul>
           </nav>

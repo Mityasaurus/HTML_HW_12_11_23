@@ -125,6 +125,7 @@ h1 {
   font-size: 14px;
   line-height: 27px;
   font-weight: 400;
+  padding-top: 96px;
 }
 .sect_process h2,
 .sect_menu h2 {
@@ -133,6 +134,7 @@ h1 {
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
+  text-align: center;
 }
 .sect_process p {
   color: #667085;
@@ -145,6 +147,13 @@ h1 {
 }
 .text_simple {
   text-align: center;
+}
+.text_works_desc {
+  margin: 30px auto 0 auto;
+  width: 505px;
+}
+.text_desc_stage {
+  width: 324px;
 }
 .circle {
   border-radius: 50%;
@@ -172,6 +181,28 @@ h1 {
   font-size: 20px;
   font-weight: 600;
   line-height: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.div_process_stage {
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.div_process_stages {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin: 60px auto 44px auto;
+  width: 250px;
+}
+.div_process_delivery {
+  margin-top: 44px;
+}
+.img_path {
+  margin-top: 58px;
 }
 .sect_menu {
   color: #667085;

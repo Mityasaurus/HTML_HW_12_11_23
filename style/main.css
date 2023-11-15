@@ -13,6 +13,13 @@ header h2 {
   font-family: Inter;
   font-weight: 700;
   font-size: 32px;
+  margin-left: 118px;
+  padding-top: 25px;
+}
+header ul {
+  display: flex;
+  margin: -34px 116px 0 545px;
+  justify-content: space-around;
 }
 header span {
   color: #fcc647;
@@ -30,6 +37,19 @@ header a {
 .sect_title {
   background: #fffbf3;
   font-family: Inter;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.sect_title img {
+  order: 2;
+}
+.div_sect_title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: baseline;
 }
 .btn_delivery {
   padding: 8px 16px;
@@ -42,12 +62,19 @@ header a {
   font-weight: 600;
   line-height: 14.25px;
   font-size: 16.625px;
+  margin-left: 120px;
+  margin-top: 30px;
+  display: inline-flex;
+  align-self: flex-start;
 }
 h1 {
   color: #3c3c3c;
   font-family: Segoe UI;
   font-weight: 700;
   font-size: 48px;
+  margin-left: 120px;
+  margin-top: 13px;
+  width: 573px;
 }
 .sect_title span {
   color: #ffc12f;
@@ -57,6 +84,12 @@ h1 {
   font-weight: 400;
   line-height: 32px;
   font-size: 16px;
+  margin-left: 120px;
+  width: 507px;
+}
+.art_title_start {
+  display: flex;
+  align-items: center;
 }
 .text_title_getStarted {
   text-align: center;
@@ -66,6 +99,7 @@ h1 {
   border-radius: 30px;
   padding: 15px 20px;
   font-size: 19px;
+  margin-right: 26px;
 }
 .img_video {
   padding: 7px;
@@ -78,6 +112,12 @@ h1 {
   text-decoration: none;
   font-size: 17px;
   line-height: 32px;
+  order: 2;
+}
+.div_title_start {
+  display: flex;
+  align-items: center;
+  margin: 27px 0 0 120px;
 }
 .sect_process {
   font-family: Inter;
@@ -269,6 +309,7 @@ h1 {
   font-weight: 600;
   line-height: 37.5px;
   text-transform: lowercase;
+  text-decoration: none;
 }
 .hr_info {
   width: 4px;

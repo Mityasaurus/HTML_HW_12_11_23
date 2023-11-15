@@ -40,7 +40,7 @@ header a {
   padding-top: 80px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .sect_title img {
   order: 2;
@@ -125,7 +125,7 @@ h1 {
   font-size: 14px;
   line-height: 27px;
   font-weight: 400;
-  padding-top: 96px;
+  padding-top: 60px;
 }
 .sect_process h2,
 .sect_menu h2 {
@@ -211,12 +211,31 @@ h1 {
   font-weight: 400;
   line-height: 27px;
 }
+.sect_menu h2 {
+  margin-top: 88px;
+}
+.text_menu_desk {
+  margin-top: 16px;
+  width: 465px;
+  margin: 0 auto;
+}
 .menu_item {
   width: 273px;
-  height: 319px;
   border-radius: 10.483px;
   border: 0.699px solid rgba(112, 112, 112, 0.2);
   margin: 22.5px 12.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.menu_meal_img {
+  align-self: center;
+  padding-top: 17px;
+}
+.menu_stars_img {
+  margin-top: 11px;
+  margin-left: 16px;
 }
 .text_meal_name {
   color: #3c3c3c;
@@ -224,13 +243,16 @@ h1 {
   font-size: 18px;
   font-weight: 700;
   line-height: 22.363px;
+  margin-left: 18px;
+  margin-top: 6px;
 }
-.text_meal_desk {
+.text_meal_desc {
   color: #667085;
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
+  margin-left: 18px;
 }
 .text_meal_price {
   color: #3c3c3c;
@@ -240,11 +262,23 @@ h1 {
   font-weight: 600;
   line-height: 20.965px;
 }
+.art_meal_price_buttons {
+  align-self: stretch;
+  display: flex;
+  justify-content: left;
+  margin: 16px 22px 17px 20px;
+}
+.meal_icon_cart {
+  margin-left: auto;
+}
+.meal_icon_share {
+  margin-left: 9px;
+}
 .menu {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 11%;
+  margin: 81px 11%;
 }
 .sect_desc {
   background: #fffbf3;

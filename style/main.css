@@ -618,6 +618,7 @@ footer {
   }
   .div_desc {
     margin-left: 20px;
+    width: 50%;
   }
   .text_desc {
     font-size: 18px;
@@ -683,5 +684,132 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    max-width: 767px;
+  }
+  .sect_title {
+    padding-right: 70px;
+  }
+  .sect_desc img {
+    width: 40%;
+  }
+  .div_contact_info {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  * {
+    max-width: 449px;
+  }
+  header h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  .sect_title {
+    padding: 0;
+    margin: 0;
+  }
+  .sect_title img {
+    visibility: collapse;
+  }
+  .div_sect_title {
+    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -260px;
+  }
+  .btn_delivery {
+    margin: 25px auto 0 auto;
+  }
+  h1 {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+  }
+  .text_title_lorem {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .div_title_start {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+  }
+  .menu_item {
+    width: 40%;
+    margin: 5px;
+  }
+  .text_meal_name {
+    margin-right: 7px;
+  }
+  .text_meal_desc {
+    margin-right: 6px;
+  }
+  .sect_desc img {
+    visibility: collapse;
+  }
+  .sect_desc {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .div_desc {
+    width: 100%;
+    margin: 50px 10px -270px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_desc {
+    margin: 10px;
+    text-align: center;
+  }
+  .div_desc h3 {
+    text-align: center;
+  }
+  .div_app p {
+    text-align: center;
+  }
+  .img_app {
+    width: 99vw;
+    margin-right: 2px;
+  }
+  .div_contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div_contact a {
+    margin: 15px 0;
+  }
+  .div_contact div {
+    margin: 0;
+  }
+  .div_contact_info {
+    height: 420px;
+    margin-bottom: -211px;
+  }
+  .div_footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  .nav_footer_sm {
+    margin: 20px auto;
+  }
+  .div_footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
   }
 }

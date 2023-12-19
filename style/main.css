@@ -5,7 +5,7 @@
   max-width: 100%;
 }
 header {
-  width: 100vw;
+  width: 100%;
   background: #fffbf3;
 }
 header h2 {
@@ -25,14 +25,15 @@ header span {
   color: #fcc647;
 }
 header a {
-  color: #fcc647;
+  color: #3c3c3c;
   font-family: Segoe UI;
   font-weight: 700;
   font-size: 20px;
-}
-.text_not_home {
-  color: #3c3c3c;
   text-decoration: none;
+}
+header a:hover {
+  color: #fcc647;
+  text-decoration: underline;
 }
 .sect_title {
   background: #fffbf3;
@@ -388,7 +389,7 @@ h1 {
 .div_contact_info {
   border-radius: 30px;
   background: var(--White, #fff);
-  width: 1170px;
+  width: 80%;
   height: 230px;
   margin: 0 auto;
   display: flex;
@@ -420,6 +421,11 @@ h1 {
   border-width: 0;
   border-radius: 5px;
   margin: 0 94px;
+}
+.div_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 footer {
   background: var(--Black, #232233);
@@ -509,14 +515,26 @@ footer {
   border-style: none;
   padding: 13px 155px 13px 18px;
 }
-.img_send {
-  background: #feb918;
-  border-radius: 4px;
-  padding: 8.5px 12px;
-  margin-left: -2px;
+.input_email:valid {
+  border: 2px solid rgb(4, 214, 4);
 }
-.art_email {
+.input_email:invalid {
+  border: 2px solid red;
+}
+.img_send {
+  margin: 5.5px 5px 5px 7px;
+  border-radius: 4px;
+}
+.form_email {
   display: flex;
+  align-items: center;
+}
+.form_email button {
+  border-radius: 0px 4px 4px 0px;
+  border: white 3px solid;
+  background-color: #feb918;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .div_footer {
@@ -545,4 +563,125 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+@media (max-width: 938px) {
+  * {
+    max-width: 937px;
+  }
+  header h2 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  .sect_title {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div_title_start {
+    margin-bottom: 40px;
+  }
+  .text_simple {
+    font-size: 20px;
+  }
+  .div_process_stages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img_path {
+    rotate: 90deg;
+    margin: 120px 0;
+  }
+  .sect_process p {
+    font-size: 20px;
+  }
+  .sect_process h3 {
+    font-size: 34px;
+  }
+  .menu {
+    margin: 40px 0;
+  }
+  .text_meal_name {
+    font-size: 22px;
+  }
+  .text_meal_desc {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .text_meal_price {
+    font-size: 20px;
+  }
+  .div_desc {
+    margin-left: 20px;
+  }
+  .text_desc {
+    font-size: 18px;
+    width: 430px;
+  }
+  .div_desc h3 {
+    width: 430px;
+  }
+  .div_app_no_contact {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div_app {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .div_app h3 {
+    text-align: center;
+  }
+  .div_app p {
+    font-size: 18px;
+  }
+  .div_contact_info {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -150px;
+    height: 300px;
+  }
+  .div_contact {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .div_contact div {
+    margin-left: 60px;
+  }
+  .div_contact a {
+    margin-right: 60px;
+  }
+  .hr_info {
+    width: 90%;
+    height: 5px;
+    margin: 30px 0;
+  }
+  .div_footer {
+    margin: 0 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .div_footer p {
+    font-size: 18px;
+  }
+  .div_footer_links {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .div_footer_news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
 }

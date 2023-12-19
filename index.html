@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tammy Food</title>
     <link rel="stylesheet" href="./style/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header>
@@ -18,10 +12,10 @@
       <nav>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a class="text_not_home" href="#about_us">About us</a></li>
-          <li><a class="text_not_home" href="#menu">Menu</a></li>
-          <li><a class="text_not_home" href="#blog">Blog</a></li>
-          <li><a class="text_not_home" href="#contact_us">Contact Us</a></li>
+          <li><a href="#about_us">About us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact_us">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -383,17 +377,23 @@
           </div>
         </div>
         <div class="div_contact_info">
-          <div class="circle email">
-            <img src="./image/icon_mail.png" alt="Mail icon" />
+          <div class="div_contact">
+            <div class="circle email">
+              <img src="./image/icon_mail.png" alt="Mail icon" />
+            </div>
+            <a href="mailto:info@youremail.com" class="text_email"
+              >info@youremail.com</a
+            >
           </div>
-          <a href="mailto:info@youremail.com" class="text_email"
-            >info@youremail.com</a
-          >
           <hr class="hr_info" />
-          <div class="circle phone">
-            <img src="./image/icon_phone.png" alt="Phone icon" />
+          <div class="div_contact">
+            <div class="circle phone">
+              <img src="./image/icon_phone.png" alt="Phone icon" />
+            </div>
+            <a href="tel:+8803216559985" class="text_email"
+              >+880 321 655 9985</a
+            >
           </div>
-          <a href="tel:+8803216559985" class="text_email">+880 321 655 9985</a>
         </div>
       </section>
     </main>
@@ -408,11 +408,11 @@
           </p>
           <nav class="nav_footer_sm">
             <a href="">
-              <img src="./image/icon_facebook.svg" alt="Facebook" />
+              <img src="./image/icon_facebook.png" alt="Facebook" />
             </a>
             <hr class="hr_footer_sm" />
             <a href="">
-              <img src="./image/icon_instagram.svg" alt="Instagram" />
+              <img src="./image/icon_instagram.png" alt="Instagram" />
             </a>
             <hr class="hr_footer_sm" />
             <a href="">
@@ -448,15 +448,23 @@
           <p class="text_footer_news">
             Subscribe our newsletter to get our latest updates & news
           </p>
-          <article class="art_email">
+          <form class="form_email">
             <input
               type="email"
               class="input_email"
               inputmode="email"
               placeholder="Your email address"
+              minlength="4"
+              title="Введіть коректний email"
             />
-            <img class="img_send" src="./image/icon_send.png" alt="Send icon" />
-          </article>
+            <button type="submit">
+              <img
+                class="img_send"
+                src="./image/icon_send.png"
+                alt="Send icon"
+              />
+            </button>
+          </form>
         </div>
       </div>
       <hr class="hr_footer" />

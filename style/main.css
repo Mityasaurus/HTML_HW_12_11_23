@@ -195,9 +195,9 @@ h1 {
 }
 .div_process_stages {
   display: flex;
-  justify-content: space-around;
-  align-items: start;
-  margin: 60px auto 44px auto;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
   width: 250px;
 }
 .div_process_delivery {
